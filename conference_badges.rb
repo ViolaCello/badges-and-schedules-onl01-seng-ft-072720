@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 require 'pry'
 # Write your code here.
 
@@ -50,3 +51,13 @@ def printer(attendees)
  
 end
   
+=======
+require "pry"
+# Write your code here.
+def badge_maker(name)
+  name.each do |names|
+    binding.pry
+    "Hello, my name is #{names}."
+  end
+end
+>>>>>>> 00de4f53bdce50eb8749d5c3613699dd1c8f6e14
